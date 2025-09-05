@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  width: 80%;
+  margin: 100px auto 0 auto;
+  padding: 25px;
+  background-color: rgb(175, 195, 214);
+  border-radius: 5px;
+}
+
+.inputBox {
+  border: 2px white solid;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+.inputBox > form {
+  display: flex;
+  justify-content: center;
+}
+.inputBox form input {
+  width: 50%;
+  min-height: 40px;
+  padding: 5px;
+  outline: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+.inputBox form button {
+  width: 7%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: black;
+  transition: 0.2s;
+}
+
+.inputBox form button:hover {
+  background-color: rgb(51, 37, 37);
+  color: white;
+}
+
+.listBox {
+  margin-top: 20px;
+}
+
+.listBox ul li {
+  background-color: rgb(187, 114, 230);
+  margin-top: 5px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: x-large;
+}
+
+.listBox i {
+  cursor: pointer;
+  margin-right: 25px;
+}
